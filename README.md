@@ -4,6 +4,7 @@ The repo found here is used as a teaching example for Parsons Summer Python Cour
 As a teaching example, the bot.py code has been completely annotated to help students understand how the bot functions. The rest of the repo: the accounts.json, the Dockerfile, Colorit.py, and requirements.txt remain in their original form.
 
 Used with Permission from char (@blastbots on twitter and char on github)
+
 Annotated by Jason Li for Parsons School of Design
 
 # blm-instagram-bot
