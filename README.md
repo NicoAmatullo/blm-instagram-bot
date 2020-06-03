@@ -1,3 +1,11 @@
+# Coding by Example
+The repo found here is used as a teaching example for Parsons Summer Python Course 2020. It demonstrates the relative simplicity of a Python project that can be used towards a positive social purpose.
+
+As a teaching example, the bot.py code has been completely annotated to help students understand how the bot functions. The rest of the repo: the accounts.json, the Dockerfile, Colorit.py, and requirements.txt remain in their original form.
+
+Used with Permission from char (@blastbots on twitter and char on github)
+Annotated by Jason Li for Parsons School of Design
+
 # blm-instagram-bot
  Instagram bot that informs users using the BlackLivesMatter tag to post solid images that they may be accidentally hiding important information about the movement.
 ![Demonstration 1](https://i.imgur.com/cbW2vEY.png)

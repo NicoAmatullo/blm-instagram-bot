@@ -1,8 +1,14 @@
 '''
 The following is an annotated version of the code (https://github.com/char/blm-instagram-bot) to teach 
-students about using python in socially critical projects that can support a social cause
+students about using python in socially critical projects that can support a social cause.
 
-With char's permission(@blastbots on twitter and char on github)
+The code is broken up into three blocks. 
+
+The First block is the library imports.
+The Second block is the global variable setup.
+The Third block is the 'work,' the part that processes the information
+
+Used with char's permission(@blastbots on twitter and char on github)
 Annotated by Jason Li for Parsons Summer Python Course 2020
 '''
 
@@ -118,14 +124,13 @@ with open('./accounts.json') as f:
     for acc in data:
         #Confirm in the terminal that we're logging in
         print('Logging in with username %s' % acc['username'] + '\n')
-
+        
+        '''STEP 2'''
         #Tell the instagram client to log in with the username and password
         #Add the client to the clients list
         #Get the blacklivesmatter feed 
         client = Client(acc['username'], acc['password'])
         clients.append(client)
-        
-        '''STEP 2'''
         feed = client.feed_tag('blacklivesmatter', client.generate_uuid())
 
 
@@ -207,7 +212,7 @@ while len(feed) != 0:
                                     contains_comment = True
                                     continue
                             
-                            '''STEP 4''''
+                            '''STEP 4'''
                             #And now we know we haven't commented yet so we comment!
                             if not contains_comment:
                                 #Log that we found an image in the terminal
@@ -259,6 +264,3 @@ while len(feed) != 0:
             if len(feed) == 1:
                 #Refresh the feed with the client instagram API
                 feed = client.feed_tag('blacklivesmatter', client.generate_uuid())
-
-        
-
