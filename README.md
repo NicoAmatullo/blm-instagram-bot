@@ -7,6 +7,8 @@ Used with Permission from char (@blastbots on twitter and char on github)
 
 Annotated by Jason Li for Parsons School of Design
 
+## The rest of this Readme is true to the original document
+
 # blm-instagram-bot
  Instagram bot that informs users using the BlackLivesMatter tag to post solid images that they may be accidentally hiding important information about the movement.
 ![Demonstration 1](https://i.imgur.com/cbW2vEY.png)
